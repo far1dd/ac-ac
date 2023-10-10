@@ -1,0 +1,84 @@
+body {
+    background: url(images/image.png);
+    background-size: cover;
+}
+
+.s-one {
+    width: 30%;
+    height: 280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 70%;
+    height: 35%;
+    margin-top: 150px;
+}
+
+.s-two {
+    width: 100%;
+    height: 150px;
+}
+
+.main-title {
+    font-family: Poppins;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.line {
+    border: 1.5px solid white;
+    margin-top: 30px;
+    width: 40%;
+}
+
+.line-c {
+    display: flex;
+    justify-content: center;
+}
+
+.s-three {
+    margin: 0 auto;
+    width: 250px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 45px;
+}
+
+.s-four {
+    width: 20%;
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    gap: 15px;
+}
+
+.location-icon {
+  width: 40px;
+  margin-left: 30px;
+}
+
+.location-title {
+    color: white;
+    font-size: 25px;
+    font-family: Poppins;
+}
+
+@media (max-width: 768px) {
+    .logo {margin-top: 50px;}
+    .logo {width: 250px;}
+    .s-one {height: 200px;}
+    .icon {margin-top: 100px;}
+    .s-four {margin-top: 150px;}
+    .location-title {width: 150px;}
+    .location-icon {margin-left: 0;}
+    .location-title {margin-left: 0;}
+}
